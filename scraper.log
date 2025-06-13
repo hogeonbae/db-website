@@ -1,0 +1,743 @@
+2025-06-13 14:27:13,707 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:27:13,709 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:27:17,722 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:27:25,496 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:27:28,792 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:27:28,800 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879427 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '1970-01-01'}
+2025-06-13 14:27:31,811 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:27:31,811 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879428 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '1970-01-01'}
+2025-06-13 14:27:34,598 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:27:34,599 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879429 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '1970-01-01'}
+2025-06-13 14:27:37,464 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:27:37,464 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879430 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '1970-01-01'}
+2025-06-13 14:27:41,452 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 14:27:41,453 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879431 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '1970-01-01'}
+2025-06-13 14:27:41,737 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879427 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:41,782 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879428 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:41,830 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879429 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:41,865 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879430 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:41,900 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879431 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:41,901 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:27:46,118 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 14:27:46,118 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '1970-01-01'}
+2025-06-13 14:27:49,194 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 14:27:49,195 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879433 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '1970-01-01'}
+2025-06-13 14:27:52,416 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:27:52,417 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879434 - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-12'}
+2025-06-13 14:27:54,911 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:27:54,912 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879435 - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-12'}
+2025-06-13 14:27:58,795 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:27:58,796 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879436 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-12'}
+2025-06-13 14:27:58,839 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:58,883 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879433 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:58,932 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879434 - 작성자: yoonlabel - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:58,966 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879435 - 작성자: lcadm - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:59,030 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879436 - 작성자: ddwowdd1363 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:27:59,030 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:30:07,787 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:30:07,787 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:30:09,614 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:30:17,794 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:30:20,980 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:30:20,981 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879427 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '1970-01-01'}
+2025-06-13 14:30:23,589 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:30:23,590 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879428 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '1970-01-01'}
+2025-06-13 14:30:27,229 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:30:27,230 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879429 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '1970-01-01'}
+2025-06-13 14:30:30,221 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:30:30,222 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879430 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '1970-01-01'}
+2025-06-13 14:30:33,169 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 14:30:33,170 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879431 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '1970-01-01'}
+2025-06-13 14:30:33,226 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879427 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:33,330 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879428 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:33,401 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879429 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:33,442 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879430 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:33,485 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879431 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:33,486 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:30:36,299 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 14:30:36,300 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '1970-01-01'}
+2025-06-13 14:30:39,171 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 14:30:39,171 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879433 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '1970-01-01'}
+2025-06-13 14:30:41,958 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:30:41,958 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879434 - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-12'}
+2025-06-13 14:30:45,500 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:30:45,500 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879435 - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-12'}
+2025-06-13 14:30:48,698 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:30:48,698 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879436 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-12'}
+2025-06-13 14:30:48,733 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:48,771 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879433 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:48,815 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879434 - 작성자: yoonlabel - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:48,851 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879435 - 작성자: lcadm - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:48,892 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879436 - 작성자: ddwowdd1363 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:30:48,892 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:30:52,646 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879437,"menuId":415,"heads":[],"article":{"id":3879437,"re...
+2025-06-13 14:30:52,647 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879437 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879437', 'date': '1970-01-01'}
+2025-06-13 14:30:56,387 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879438,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:30:56,388 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879438 - 작성자: tk2102', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879438', 'date': '2025-06-12'}
+2025-06-13 14:30:59,035 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879439,"menuId":415,"heads":[],"article":{"id":3879439,"re...
+2025-06-13 14:30:59,035 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879439 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879439', 'date': '1970-01-01'}
+2025-06-13 14:31:02,453 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879440,"menuId":415,"heads":[],"article":{"id":3879440,"re...
+2025-06-13 14:31:02,454 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879440 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879440', 'date': '1970-01-01'}
+2025-06-13 14:31:05,399 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879441,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:31:05,400 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879441 - 작성자: gkrud12123', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879441', 'date': '2025-06-12'}
+2025-06-13 14:31:05,459 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879437 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:31:05,498 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879438 - 작성자: tk2102 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:31:05,533 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879439 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:31:05,572 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879440 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:31:05,609 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879441 - 작성자: gkrud12123 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:31:05,609 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:31:09,295 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879442,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:31:09,296 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879442 - 작성자: yhj8584122', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879442', 'date': '2025-06-12'}
+2025-06-13 14:31:44,034 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:31:44,034 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:31:45,869 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:31:56,339 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:31:58,197 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:31:58,198 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879427 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '1970-01-01'}
+2025-06-13 14:32:01,420 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:32:01,421 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879428 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '1970-01-01'}
+2025-06-13 14:32:04,544 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:32:04,545 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879429 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '1970-01-01'}
+2025-06-13 14:32:07,839 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:32:07,839 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879430 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '1970-01-01'}
+2025-06-13 14:32:10,477 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 14:32:10,477 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879431 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '1970-01-01'}
+2025-06-13 14:32:10,968 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879427 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:11,149 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879428 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:11,351 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879429 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:11,471 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879430 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:11,691 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879431 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:11,692 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:32:14,718 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 14:32:14,719 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '1970-01-01'}
+2025-06-13 14:32:17,386 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 14:32:17,386 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879433 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '1970-01-01'}
+2025-06-13 14:32:21,350 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:32:21,350 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879434 - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-12'}
+2025-06-13 14:32:24,067 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:32:24,067 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879435 - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-12'}
+2025-06-13 14:32:27,160 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 14:32:27,160 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879436 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-12'}
+2025-06-13 14:32:27,256 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:27,292 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879433 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:27,328 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879434 - 작성자: yoonlabel - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:27,378 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879435 - 작성자: lcadm - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:27,424 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879436 - 작성자: ddwowdd1363 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:32:27,424 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:32:30,871 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879437,"menuId":415,"heads":[],"article":{"id":3879437,"re...
+2025-06-13 14:32:30,872 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879437 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879437', 'date': '1970-01-01'}
+2025-06-13 14:35:48,300 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:35:48,301 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:35:50,076 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:35:57,882 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:36:00,276 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:36:00,277 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879427 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '1970-01-01'}
+2025-06-13 14:36:03,844 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:36:03,845 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879428 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '1970-01-01'}
+2025-06-13 14:36:06,863 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:36:06,864 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879429 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '1970-01-01'}
+2025-06-13 14:36:10,051 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:36:10,052 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879430 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '1970-01-01'}
+2025-06-13 14:36:13,216 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 14:36:13,217 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879431 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '1970-01-01'}
+2025-06-13 14:36:13,494 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879427 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:36:13,538 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879428 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:36:13,590 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879429 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:36:13,628 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879430 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:36:13,673 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879431 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:36:13,674 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:36:16,642 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 14:36:16,643 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '1970-01-01'}
+2025-06-13 14:36:19,458 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 14:36:19,458 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879433 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '1970-01-01'}
+2025-06-13 14:46:25,620 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:46:25,621 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:46:27,562 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:46:35,518 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:46:37,554 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:46:37,555 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879427 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '1970-01-01', 'author': 'N/A', 'email': 'N/A'}
+2025-06-13 14:46:40,496 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:46:40,496 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879428 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '1970-01-01', 'author': 'N/A', 'email': 'N/A'}
+2025-06-13 14:46:43,187 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:46:43,188 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879429 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '1970-01-01', 'author': 'N/A', 'email': 'N/A'}
+2025-06-13 14:46:46,897 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:46:46,897 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879430 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '1970-01-01', 'author': 'N/A', 'email': 'N/A'}
+2025-06-13 14:46:49,511 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 14:46:49,512 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879431 - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '1970-01-01', 'author': 'N/A', 'email': 'N/A'}
+2025-06-13 14:46:49,601 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879427 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:46:49,644 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879428 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:46:49,757 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879429 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:46:49,806 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879430 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:46:49,852 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 3879431 - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 14:46:49,852 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 14:48:57,805 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 14:48:57,806 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 14:48:59,647 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 14:49:07,413 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 14:49:10,383 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 14:49:10,384 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '[대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '2025-06-12', 'author': 'nikemarket', 'email': 'N/A'}
+2025-06-13 14:49:13,598 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 14:49:13,598 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '2025-06-12', 'author': '주식회사프라임컴퍼니', 'email': 'N/A'}
+2025-06-13 14:49:16,047 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 14:49:16,048 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '2025-06-12', 'author': '수출국내유통매입', 'email': 'N/A'}
+2025-06-13 14:49:18,490 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 14:49:18,491 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '[대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '2025-06-12', 'author': 'nikemarket', 'email': 'N/A'}
+2025-06-13 15:23:41,729 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 15:23:41,729 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 15:23:43,821 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 15:23:51,793 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 15:23:55,059 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 15:23:55,059 - naver_blog_scraper - INFO - 글 시퀀스 3879427: writer.id를 찾을 수 없습니다
+2025-06-13 15:23:58,765 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 15:23:58,765 - naver_blog_scraper - INFO - 글 시퀀스 3879428: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:01,849 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 15:24:01,850 - naver_blog_scraper - INFO - 글 시퀀스 3879429: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:04,748 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 15:24:04,748 - naver_blog_scraper - INFO - 글 시퀀스 3879430: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:08,658 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 15:24:08,658 - naver_blog_scraper - INFO - 글 시퀀스 3879431: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:12,227 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 15:24:12,228 - naver_blog_scraper - INFO - 글 시퀀스 3879432: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:15,041 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 15:24:15,041 - naver_blog_scraper - INFO - 글 시퀀스 3879433: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:17,839 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:17,840 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '1970-01-01 09:00:00', 'author': 'yoonlabel', 'email': 'yoonlabel@naver.com'}
+2025-06-13 15:24:21,279 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:21,280 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '1970-01-01 09:00:00', 'author': 'lcadm', 'email': 'lcadm@naver.com'}
+2025-06-13 15:24:24,227 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:24,228 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '1970-01-01 09:00:00', 'author': 'ddwowdd1363', 'email': 'ddwowdd1363@naver.com'}
+2025-06-13 15:24:26,796 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879437,"menuId":415,"heads":[],"article":{"id":3879437,"re...
+2025-06-13 15:24:26,797 - naver_blog_scraper - INFO - 글 시퀀스 3879437: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:30,343 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879438,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:30,343 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: tk2102', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879438', 'date': '1970-01-01 09:00:00', 'author': 'tk2102', 'email': 'tk2102@naver.com'}
+2025-06-13 15:24:34,501 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879439,"menuId":415,"heads":[],"article":{"id":3879439,"re...
+2025-06-13 15:24:34,502 - naver_blog_scraper - INFO - 글 시퀀스 3879439: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:38,170 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879440,"menuId":415,"heads":[],"article":{"id":3879440,"re...
+2025-06-13 15:24:38,171 - naver_blog_scraper - INFO - 글 시퀀스 3879440: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:40,590 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879441,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:40,590 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: gkrud12123', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879441', 'date': '1970-01-01 09:00:00', 'author': 'gkrud12123', 'email': 'gkrud12123@naver.com'}
+2025-06-13 15:24:40,676 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: yoonlabel - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:24:40,710 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: lcadm - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:24:40,748 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: ddwowdd1363 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:24:40,814 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: tk2102 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:24:40,847 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: gkrud12123 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:24:40,847 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 15:24:44,121 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879442,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:44,122 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: yhj8584122', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879442', 'date': '1970-01-01 09:00:00', 'author': 'yhj8584122', 'email': 'yhj8584122@naver.com'}
+2025-06-13 15:24:47,866 - naver_blog_scraper - INFO - 글 시퀀스 3879443에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879443,"menuId":415,"heads":[],"article":{"id":3879443,"re...
+2025-06-13 15:24:47,866 - naver_blog_scraper - INFO - 글 시퀀스 3879443: writer.id를 찾을 수 없습니다
+2025-06-13 15:24:51,784 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879444,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:24:51,785 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: human3836', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879444', 'date': '1970-01-01 09:00:00', 'author': 'human3836', 'email': 'human3836@naver.com'}
+2025-06-13 15:26:39,454 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 15:26:39,454 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 15:26:41,418 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 15:26:49,575 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 15:26:52,375 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 15:26:52,375 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '[대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '2025-06-12 10:22:00', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:26:55,585 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 15:26:55,586 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '2025-06-12 10:22:15', 'author': '주식회사프라임컴퍼니', 'email': '주식회사프라임컴퍼니@naver.com'}
+2025-06-13 15:26:59,333 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 15:26:59,334 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '2025-06-12 10:22:47', 'author': '수출국내유통매입', 'email': '수출국내유통매입@naver.com'}
+2025-06-13 15:27:02,244 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 15:27:02,245 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '[대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '2025-06-12 10:22:54', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:27:05,125 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 15:27:05,125 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '<3PL 물류> 무조건 보관비 무료 ||| 최저가 일반&쿠팡 3PL  ||| 빠른소통과 신뢰로 보답하겠습니다. - 작성자: 굿앤웰 3PL', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '2025-06-12 10:24:32', 'author': '굿앤웰 3PL', 'email': '굿앤웰 3PL@naver.com'}
+2025-06-13 15:27:05,171 - naver_blog_scraper - ERROR - 데이터 전송 실패: [대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:05,220 - naver_blog_scraper - ERROR - 데이터 전송 실패: 3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:05,258 - naver_blog_scraper - ERROR - 데이터 전송 실패: 처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:05,297 - naver_blog_scraper - ERROR - 데이터 전송 실패: [대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:05,334 - naver_blog_scraper - ERROR - 데이터 전송 실패: <3PL 물류> 무조건 보관비 무료 ||| 최저가 일반&쿠팡 3PL  ||| 빠른소통과 신뢰로 보답하겠습니다. - 작성자: 굿앤웰 3PL - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:05,335 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 15:27:08,140 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 15:27:08,141 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '2025-06-13 15:27:08', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:10,720 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 15:27:10,721 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '용인 기흥구 사입삼촌 구합니다 - 작성자: jlook', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '2025-06-12 10:24:57', 'author': 'jlook', 'email': 'jlook@naver.com'}
+2025-06-13 15:27:14,588 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:14,589 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-13 15:27:14', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:17,730 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:17,730 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-13 15:27:17', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:20,566 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:20,567 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-13 15:27:20', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:20,630 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:20,681 - naver_blog_scraper - ERROR - 데이터 전송 실패: 용인 기흥구 사입삼촌 구합니다 - 작성자: jlook - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:20,713 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:20,743 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:20,777 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:20,778 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 15:27:23,794 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879437,"menuId":415,"heads":[],"article":{"id":3879437,"re...
+2025-06-13 15:27:23,795 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 데이터 파싱 성공: {'title': '키즈커튼 공구 가능하신 셀러분 모집합니다 - 작성자: 행운반짝', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879437', 'date': '2025-06-12 10:29:14', 'author': '행운반짝', 'email': '행운반짝@naver.com'}
+2025-06-13 15:27:27,372 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879438,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:27,372 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879438', 'date': '2025-06-13 15:27:27', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:31,209 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879439,"menuId":415,"heads":[],"article":{"id":3879439,"re...
+2025-06-13 15:27:31,209 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 데이터 파싱 성공: {'title': '구매확정후 결제카드변경 요구하면 어떻게 처리 하는건가요? - 작성자: 블루아이3', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879439', 'date': '2025-06-12 10:30:47', 'author': '블루아이3', 'email': '블루아이3@naver.com'}
+2025-06-13 15:27:34,464 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879440,"menuId":415,"heads":[],"article":{"id":3879440,"re...
+2025-06-13 15:27:34,464 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 데이터 파싱 성공: {'title': '150*150*1700 정도 되는 긴박스 소량 제작 가능한곳 있을까요?? - 작성자: 디디06', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879440', 'date': '2025-06-12 10:30:47', 'author': '디디06', 'email': '디디06@naver.com'}
+2025-06-13 15:27:37,588 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879441,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:37,589 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879441', 'date': '2025-06-13 15:27:37', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:37,634 - naver_blog_scraper - ERROR - 데이터 전송 실패: 키즈커튼 공구 가능하신 셀러분 모집합니다 - 작성자: 행운반짝 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:37,668 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:37,707 - naver_blog_scraper - ERROR - 데이터 전송 실패: 구매확정후 결제카드변경 요구하면 어떻게 처리 하는건가요? - 작성자: 블루아이3 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:37,740 - naver_blog_scraper - ERROR - 데이터 전송 실패: 150*150*1700 정도 되는 긴박스 소량 제작 가능한곳 있을까요?? - 작성자: 디디06 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:37,782 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:37,783 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 15:27:41,327 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879442,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:41,328 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879442', 'date': '2025-06-13 15:27:41', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:44,214 - naver_blog_scraper - INFO - 글 시퀀스 3879443에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879443,"menuId":415,"heads":[],"article":{"id":3879443,"re...
+2025-06-13 15:27:44,215 - naver_blog_scraper - INFO - 글 시퀀스 3879443에 대한 데이터 파싱 성공: {'title': '《 이지로켓 3PL 》 셀러가 만든, 셀러를 위한 3PL (600평 확장 이벤트) - 작성자: 3PL 이지로켓', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879443', 'date': '2025-06-12 10:34:37', 'author': '3PL 이지로켓', 'email': '3PL 이지로켓@naver.com'}
+2025-06-13 15:27:47,694 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879444,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:47,694 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879444', 'date': '2025-06-13 15:27:47', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:50,961 - naver_blog_scraper - INFO - 글 시퀀스 3879445에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879445,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:50,961 - naver_blog_scraper - INFO - 글 시퀀스 3879445에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879445', 'date': '2025-06-13 15:27:50', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:54,502 - naver_blog_scraper - INFO - 글 시퀀스 3879446에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879446,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:27:54,503 - naver_blog_scraper - INFO - 글 시퀀스 3879446에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879446', 'date': '2025-06-13 15:27:54', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:27:54,543 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:54,586 - naver_blog_scraper - ERROR - 데이터 전송 실패: 《 이지로켓 3PL 》 셀러가 만든, 셀러를 위한 3PL (600평 확장 이벤트) - 작성자: 3PL 이지로켓 - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:54,628 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:54,659 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:54,695 - naver_blog_scraper - ERROR - 데이터 전송 실패: 카페 게시글 N/A - 작성자: N/A - 405 Client Error: Method Not Allowed for url: https://db-website-eight.vercel.app/api/data
+2025-06-13 15:27:54,695 - naver_blog_scraper - INFO - 총 5개 데이터 중 0개 성공, 5개 실패.
+2025-06-13 15:28:59,209 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 15:28:59,209 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 15:29:01,991 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 15:29:10,400 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 15:29:12,787 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 15:29:12,788 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 데이터 파싱 성공: {'title': '[대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '2025-06-12 10:22:00', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:29:16,830 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 15:29:16,830 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 데이터 파싱 성공: {'title': '3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '2025-06-12 10:22:15', 'author': '주식회사프라임컴퍼니', 'email': '주식회사프라임컴퍼니@naver.com'}
+2025-06-13 15:29:19,960 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 15:29:19,960 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 데이터 파싱 성공: {'title': '처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '2025-06-12 10:22:47', 'author': '수출국내유통매입', 'email': '수출국내유통매입@naver.com'}
+2025-06-13 15:29:23,471 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 15:29:23,471 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 데이터 파싱 성공: {'title': '[대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '2025-06-12 10:22:54', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:29:27,230 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 15:29:27,230 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 데이터 파싱 성공: {'title': '<3PL 물류> 무조건 보관비 무료 ||| 최저가 일반&쿠팡 3PL  ||| 빠른소통과 신뢰로 보답하겠습니다. - 작성자: 굿앤웰 3PL', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '2025-06-12 10:24:32', 'author': '굿앤웰 3PL', 'email': '굿앤웰 3PL@naver.com'}
+2025-06-13 15:29:27,231 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '[대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879427', 'date': '2025-06-12 10:22:00', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:29:28,482 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:28,482 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:28,482 - naver_blog_scraper - INFO - 데이터 전송 성공: [대전] 택배대행,택배+스튜디오 이용 계약,온라인 쇼핑몰 전문시설,풀필먼트,3pl ,단발성택배발송,사무실가능 - 작성자: nikemarket - 200
+2025-06-13 15:29:28,483 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879428', 'date': '2025-06-12 10:22:15', 'author': '주식회사프라임컴퍼니', 'email': '주식회사프라임컴퍼니@naver.com'}
+2025-06-13 15:29:28,950 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:28,950 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:28,950 - naver_blog_scraper - INFO - 데이터 전송 성공: 3PL의 동반자 프라임 이벤트진행중 빠르게 연락주세요!! 문의폭주!! 소량,대량 발송 모두 가능합니다. 문의주세요. - 작성자: 주식회사프라임컴퍼니 - 200
+2025-06-13 15:29:28,951 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879429', 'date': '2025-06-12 10:22:47', 'author': '수출국내유통매입', 'email': '수출국내유통매입@naver.com'}
+2025-06-13 15:29:29,414 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:29,414 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:29,414 - naver_blog_scraper - INFO - 데이터 전송 성공: 처치곤란재고, 급한현금 필요시 재고상품 저희가 최고가 전량매입! 언제든 연락주세요! - 작성자: 수출국내유통매입 - 200
+2025-06-13 15:29:29,415 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '[대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879430', 'date': '2025-06-12 10:22:54', 'author': 'nikemarket', 'email': 'nikemarket@naver.com'}
+2025-06-13 15:29:29,888 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:29,889 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:29,889 - naver_blog_scraper - INFO - 데이터 전송 성공: [대전]2400평최대규모,쇼핑몰특화,층고 9미터 자연채광 스튜디오,택배비 최저가, 주차장400평완비,비상주최저가 - 작성자: nikemarket - 200
+2025-06-13 15:29:29,889 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '<3PL 물류> 무조건 보관비 무료 ||| 최저가 일반&쿠팡 3PL  ||| 빠른소통과 신뢰로 보답하겠습니다. - 작성자: 굿앤웰 3PL', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879431', 'date': '2025-06-12 10:24:32', 'author': '굿앤웰 3PL', 'email': '굿앤웰 3PL@naver.com'}
+2025-06-13 15:29:30,362 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:30,362 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:30,362 - naver_blog_scraper - INFO - 데이터 전송 성공: <3PL 물류> 무조건 보관비 무료 ||| 최저가 일반&쿠팡 3PL  ||| 빠른소통과 신뢰로 보답하겠습니다. - 작성자: 굿앤웰 3PL - 200
+2025-06-13 15:29:30,363 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 15:29:32,928 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 15:29:32,928 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '2025-06-13 15:29:32', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:36,453 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 15:29:36,453 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 데이터 파싱 성공: {'title': '용인 기흥구 사입삼촌 구합니다 - 작성자: jlook', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '2025-06-12 10:24:57', 'author': 'jlook', 'email': 'jlook@naver.com'}
+2025-06-13 15:29:38,753 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:29:38,753 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-13 15:29:38', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:41,617 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:29:41,618 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-13 15:29:41', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:44,170 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 15:29:44,171 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-13 15:29:44', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:44,171 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879432', 'date': '2025-06-13 15:29:32', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:45,403 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:45,403 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:45,404 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 N/A - 작성자: N/A - 200
+2025-06-13 15:29:45,404 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '용인 기흥구 사입삼촌 구합니다 - 작성자: jlook', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879433', 'date': '2025-06-12 10:24:57', 'author': 'jlook', 'email': 'jlook@naver.com'}
+2025-06-13 15:29:45,897 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:45,897 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:45,898 - naver_blog_scraper - INFO - 데이터 전송 성공: 용인 기흥구 사입삼촌 구합니다 - 작성자: jlook - 200
+2025-06-13 15:29:45,898 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-13 15:29:38', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:46,360 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:46,360 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:46,361 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 N/A - 작성자: N/A - 200
+2025-06-13 15:29:46,361 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-13 15:29:41', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:46,924 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:46,924 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:46,925 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 N/A - 작성자: N/A - 200
+2025-06-13 15:29:46,925 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 N/A - 작성자: N/A', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-13 15:29:44', 'author': 'N/A', 'email': 'N/A@naver.com'}
+2025-06-13 15:29:47,384 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 15:29:47,385 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 15:29:47,385 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 N/A - 작성자: N/A - 200
+2025-06-13 15:29:47,385 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:49:09,451 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 17:49:09,451 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 17:49:12,900 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 17:49:27,042 - naver_blog_scraper - ERROR - 네이버 로그인 실패: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69b89fe75+79173]
+	GetHandleVerifier [0x0x7ff69b89fed0+79264]
+	(No symbol) [0x0x7ff69b659e5a]
+	(No symbol) [0x0x7ff69b6b0586]
+	(No symbol) [0x0x7ff69b6b083c]
+	(No symbol) [0x0x7ff69b704247]
+	(No symbol) [0x0x7ff69b6d89af]
+	(No symbol) [0x0x7ff69b70100d]
+	(No symbol) [0x0x7ff69b6d8743]
+	(No symbol) [0x0x7ff69b6a14c1]
+	(No symbol) [0x0x7ff69b6a2253]
+	GetHandleVerifier [0x0x7ff69bb6a2ad+3004797]
+	GetHandleVerifier [0x0x7ff69bb646fd+2981325]
+	GetHandleVerifier [0x0x7ff69bb83350+3107360]
+	GetHandleVerifier [0x0x7ff69b8ba9fe+188622]
+	GetHandleVerifier [0x0x7ff69b8c228f+219487]
+	GetHandleVerifier [0x0x7ff69b8a8dc4+115860]
+	GetHandleVerifier [0x0x7ff69b8a8f79+116297]
+	GetHandleVerifier [0x0x7ff69b88f528+11256]
+	BaseThreadInitThunk [0x0x7ff9f67c7374+20]
+	RtlUserThreadStart [0x0x7ff9f829cc91+33]
+
+2025-06-13 17:49:29,252 - naver_blog_scraper - ERROR - 작업자 실패: 네이버 로그인 실패
+2025-06-13 17:49:29,252 - naver_blog_scraper - INFO - 데이터 수집 및 Vercel API 전송이 완료되었습니다
+2025-06-13 17:49:43,301 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 17:49:43,301 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 17:49:45,180 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 17:49:59,300 - naver_blog_scraper - ERROR - 네이버 로그인 실패: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69b89fe75+79173]
+	GetHandleVerifier [0x0x7ff69b89fed0+79264]
+	(No symbol) [0x0x7ff69b659e5a]
+	(No symbol) [0x0x7ff69b6b0586]
+	(No symbol) [0x0x7ff69b6b083c]
+	(No symbol) [0x0x7ff69b704247]
+	(No symbol) [0x0x7ff69b6d89af]
+	(No symbol) [0x0x7ff69b70100d]
+	(No symbol) [0x0x7ff69b6d8743]
+	(No symbol) [0x0x7ff69b6a14c1]
+	(No symbol) [0x0x7ff69b6a2253]
+	GetHandleVerifier [0x0x7ff69bb6a2ad+3004797]
+	GetHandleVerifier [0x0x7ff69bb646fd+2981325]
+	GetHandleVerifier [0x0x7ff69bb83350+3107360]
+	GetHandleVerifier [0x0x7ff69b8ba9fe+188622]
+	GetHandleVerifier [0x0x7ff69b8c228f+219487]
+	GetHandleVerifier [0x0x7ff69b8a8dc4+115860]
+	GetHandleVerifier [0x0x7ff69b8a8f79+116297]
+	GetHandleVerifier [0x0x7ff69b88f528+11256]
+	BaseThreadInitThunk [0x0x7ff9f67c7374+20]
+	RtlUserThreadStart [0x0x7ff9f829cc91+33]
+
+2025-06-13 17:50:01,451 - naver_blog_scraper - ERROR - 작업자 실패: 네이버 로그인 실패
+2025-06-13 17:50:01,451 - naver_blog_scraper - INFO - 데이터 수집 및 Vercel API 전송이 완료되었습니다
+2025-06-13 17:51:37,720 - naver_blog_scraper - INFO - 네이버 블로그 스크래퍼 시작 (Vercel API 연동)
+2025-06-13 17:51:37,720 - naver_blog_scraper - INFO - 1개의 작업자로 병렬 처리 시작
+2025-06-13 17:51:39,739 - naver_blog_scraper - INFO - 네이버 로그인 시도 중
+2025-06-13 17:51:59,692 - naver_blog_scraper - INFO - 네이버 로그인 성공
+2025-06-13 17:52:01,784 - naver_blog_scraper - INFO - 글 시퀀스 3879427에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879427,"menuId":415,"heads":[],"article":{"id":3879427,"re...
+2025-06-13 17:52:01,785 - naver_blog_scraper - INFO - 글 시퀀스 3879427: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:05,325 - naver_blog_scraper - INFO - 글 시퀀스 3879428에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879428,"menuId":415,"heads":[],"article":{"id":3879428,"re...
+2025-06-13 17:52:05,325 - naver_blog_scraper - INFO - 글 시퀀스 3879428: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:09,102 - naver_blog_scraper - INFO - 글 시퀀스 3879429에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879429,"menuId":415,"heads":[{"headId":65,"head":"삽니다"},{"...
+2025-06-13 17:52:09,102 - naver_blog_scraper - INFO - 글 시퀀스 3879429: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:12,047 - naver_blog_scraper - INFO - 글 시퀀스 3879430에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879430,"menuId":415,"heads":[{"headId":174,"head":"강북"},{"...
+2025-06-13 17:52:12,047 - naver_blog_scraper - INFO - 글 시퀀스 3879430: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:16,027 - naver_blog_scraper - INFO - 글 시퀀스 3879431에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879431,"menuId":415,"heads":[],"article":{"id":3879431,"re...
+2025-06-13 17:52:16,027 - naver_blog_scraper - INFO - 글 시퀀스 3879431: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:19,862 - naver_blog_scraper - INFO - 글 시퀀스 3879432에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:52:19,862 - naver_blog_scraper - INFO - 글 시퀀스 3879432: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:23,583 - naver_blog_scraper - INFO - 글 시퀀스 3879433에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879433,"menuId":415,"heads":[],"article":{"id":3879433,"re...
+2025-06-13 17:52:23,583 - naver_blog_scraper - INFO - 글 시퀀스 3879433: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:26,839 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879434,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:26,840 - naver_blog_scraper - INFO - 글 시퀀스 3879434에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879434 - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-13 17:52:26', 'author': 'yoonlabel', 'email': 'yoonlabel@naver.com'}
+2025-06-13 17:52:29,670 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879435,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:29,670 - naver_blog_scraper - INFO - 글 시퀀스 3879435에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879435 - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-13 17:52:29', 'author': 'lcadm', 'email': 'lcadm@naver.com'}
+2025-06-13 17:52:32,735 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879436,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:32,736 - naver_blog_scraper - INFO - 글 시퀀스 3879436에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879436 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-13 17:52:32', 'author': 'ddwowdd1363', 'email': 'ddwowdd1363@naver.com'}
+2025-06-13 17:52:36,323 - naver_blog_scraper - INFO - 글 시퀀스 3879437에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879437,"menuId":415,"heads":[],"article":{"id":3879437,"re...
+2025-06-13 17:52:36,323 - naver_blog_scraper - INFO - 글 시퀀스 3879437: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:39,342 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879438,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:39,342 - naver_blog_scraper - INFO - 글 시퀀스 3879438에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879438 - 작성자: tk2102', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879438', 'date': '2025-06-13 17:52:39', 'author': 'tk2102', 'email': 'tk2102@naver.com'}
+2025-06-13 17:52:43,432 - naver_blog_scraper - INFO - 글 시퀀스 3879439에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879439,"menuId":415,"heads":[],"article":{"id":3879439,"re...
+2025-06-13 17:52:43,432 - naver_blog_scraper - INFO - 글 시퀀스 3879439: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:46,325 - naver_blog_scraper - INFO - 글 시퀀스 3879440에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879440,"menuId":415,"heads":[],"article":{"id":3879440,"re...
+2025-06-13 17:52:46,325 - naver_blog_scraper - INFO - 글 시퀀스 3879440: writer.id를 찾을 수 없습니다
+2025-06-13 17:52:49,337 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879441,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:49,337 - naver_blog_scraper - INFO - 글 시퀀스 3879441에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879441 - 작성자: gkrud12123', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879441', 'date': '2025-06-13 17:52:49', 'author': 'gkrud12123', 'email': 'gkrud12123@naver.com'}
+2025-06-13 17:52:49,337 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879434 - 작성자: yoonlabel', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879434', 'date': '2025-06-13 17:52:26', 'author': 'yoonlabel', 'email': 'yoonlabel@naver.com'}
+2025-06-13 17:52:50,705 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:52:50,705 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:52:50,705 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879434 - 작성자: yoonlabel - 200
+2025-06-13 17:52:50,705 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879435 - 작성자: lcadm', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879435', 'date': '2025-06-13 17:52:29', 'author': 'lcadm', 'email': 'lcadm@naver.com'}
+2025-06-13 17:52:51,200 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:52:51,200 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:52:51,200 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879435 - 작성자: lcadm - 200
+2025-06-13 17:52:51,201 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879436 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879436', 'date': '2025-06-13 17:52:32', 'author': 'ddwowdd1363', 'email': 'ddwowdd1363@naver.com'}
+2025-06-13 17:52:51,702 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:52:51,702 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:52:51,702 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879436 - 작성자: ddwowdd1363 - 200
+2025-06-13 17:52:51,702 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879438 - 작성자: tk2102', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879438', 'date': '2025-06-13 17:52:39', 'author': 'tk2102', 'email': 'tk2102@naver.com'}
+2025-06-13 17:52:52,203 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:52:52,203 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:52:52,203 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879438 - 작성자: tk2102 - 200
+2025-06-13 17:52:52,203 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879441 - 작성자: gkrud12123', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879441', 'date': '2025-06-13 17:52:49', 'author': 'gkrud12123', 'email': 'gkrud12123@naver.com'}
+2025-06-13 17:52:53,015 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:52:53,015 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:52:53,015 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879441 - 작성자: gkrud12123 - 200
+2025-06-13 17:52:53,015 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:52:56,193 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879442,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:52:56,194 - naver_blog_scraper - INFO - 글 시퀀스 3879442에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879442 - 작성자: yhj8584122', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879442', 'date': '2025-06-13 17:52:56', 'author': 'yhj8584122', 'email': 'yhj8584122@naver.com'}
+2025-06-13 17:53:00,282 - naver_blog_scraper - INFO - 글 시퀀스 3879443에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879443,"menuId":415,"heads":[],"article":{"id":3879443,"re...
+2025-06-13 17:53:00,282 - naver_blog_scraper - INFO - 글 시퀀스 3879443: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:03,879 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879444,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:03,879 - naver_blog_scraper - INFO - 글 시퀀스 3879444에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879444 - 작성자: human3836', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879444', 'date': '2025-06-13 17:53:03', 'author': 'human3836', 'email': 'human3836@naver.com'}
+2025-06-13 17:53:07,440 - naver_blog_scraper - INFO - 글 시퀀스 3879445에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879445,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:07,440 - naver_blog_scraper - INFO - 글 시퀀스 3879445에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879445 - 작성자: moslo99', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879445', 'date': '2025-06-13 17:53:07', 'author': 'moslo99', 'email': 'moslo99@naver.com'}
+2025-06-13 17:53:11,032 - naver_blog_scraper - INFO - 글 시퀀스 3879446에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879446,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:11,033 - naver_blog_scraper - INFO - 글 시퀀스 3879446에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879446 - 작성자: rji21c', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879446', 'date': '2025-06-13 17:53:11', 'author': 'rji21c', 'email': 'rji21c@naver.com'}
+2025-06-13 17:53:15,226 - naver_blog_scraper - INFO - 글 시퀀스 3879447에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879447,"menuId":415,"heads":[],"article":{"id":3879447,"re...
+2025-06-13 17:53:15,226 - naver_blog_scraper - INFO - 글 시퀀스 3879447: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:19,279 - naver_blog_scraper - INFO - 글 시퀀스 3879448에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879448,"menuId":415,"heads":[],"article":{"id":3879448,"re...
+2025-06-13 17:53:19,279 - naver_blog_scraper - INFO - 글 시퀀스 3879448: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:22,924 - naver_blog_scraper - INFO - 글 시퀀스 3879449에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879449,"menuId":415,"heads":[],"article":{"id":3879449,"re...
+2025-06-13 17:53:22,924 - naver_blog_scraper - INFO - 글 시퀀스 3879449: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:26,195 - naver_blog_scraper - INFO - 글 시퀀스 3879450에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879450,"menuId":415,"heads":[],"article":{"id":3879450,"re...
+2025-06-13 17:53:26,195 - naver_blog_scraper - INFO - 글 시퀀스 3879450: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:28,975 - naver_blog_scraper - INFO - 글 시퀀스 3879451에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:53:28,976 - naver_blog_scraper - INFO - 글 시퀀스 3879451: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:32,454 - naver_blog_scraper - INFO - 글 시퀀스 3879452에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879452,"menuId":415,"heads":[{"headId":293,"head":"인스타"},{...
+2025-06-13 17:53:32,454 - naver_blog_scraper - INFO - 글 시퀀스 3879452: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:35,375 - naver_blog_scraper - INFO - 글 시퀀스 3879453에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879453,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:35,375 - naver_blog_scraper - INFO - 글 시퀀스 3879453에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879453 - 작성자: dbsgudejr33', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879453', 'date': '2025-06-13 17:53:35', 'author': 'dbsgudejr33', 'email': 'dbsgudejr33@naver.com'}
+2025-06-13 17:53:35,375 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879442 - 작성자: yhj8584122', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879442', 'date': '2025-06-13 17:52:56', 'author': 'yhj8584122', 'email': 'yhj8584122@naver.com'}
+2025-06-13 17:53:36,633 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:53:36,633 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:53:36,633 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879442 - 작성자: yhj8584122 - 200
+2025-06-13 17:53:36,633 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879444 - 작성자: human3836', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879444', 'date': '2025-06-13 17:53:03', 'author': 'human3836', 'email': 'human3836@naver.com'}
+2025-06-13 17:53:37,153 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:53:37,154 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:53:37,154 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879444 - 작성자: human3836 - 200
+2025-06-13 17:53:37,154 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879445 - 작성자: moslo99', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879445', 'date': '2025-06-13 17:53:07', 'author': 'moslo99', 'email': 'moslo99@naver.com'}
+2025-06-13 17:53:37,652 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:53:37,652 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:53:37,653 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879445 - 작성자: moslo99 - 200
+2025-06-13 17:53:37,653 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879446 - 작성자: rji21c', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879446', 'date': '2025-06-13 17:53:11', 'author': 'rji21c', 'email': 'rji21c@naver.com'}
+2025-06-13 17:53:38,164 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:53:38,164 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:53:38,164 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879446 - 작성자: rji21c - 200
+2025-06-13 17:53:38,164 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879453 - 작성자: dbsgudejr33', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879453', 'date': '2025-06-13 17:53:35', 'author': 'dbsgudejr33', 'email': 'dbsgudejr33@naver.com'}
+2025-06-13 17:53:38,654 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:53:38,654 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:53:38,654 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879453 - 작성자: dbsgudejr33 - 200
+2025-06-13 17:53:38,654 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:53:42,660 - naver_blog_scraper - INFO - 글 시퀀스 3879454에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879454,"menuId":415,"heads":[],"article":{"id":3879454,"re...
+2025-06-13 17:53:42,661 - naver_blog_scraper - INFO - 글 시퀀스 3879454: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:46,151 - naver_blog_scraper - INFO - 글 시퀀스 3879455에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879455,"menuId":415,"heads":[],"article":{"id":3879455,"re...
+2025-06-13 17:53:46,151 - naver_blog_scraper - INFO - 글 시퀀스 3879455: writer.id를 찾을 수 없습니다
+2025-06-13 17:53:48,940 - naver_blog_scraper - INFO - 글 시퀀스 3879456에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879456,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:48,940 - naver_blog_scraper - INFO - 글 시퀀스 3879456에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879456 - 작성자: hsbiotech777', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879456', 'date': '2025-06-13 17:53:48', 'author': 'hsbiotech777', 'email': 'hsbiotech777@naver.com'}
+2025-06-13 17:53:53,134 - naver_blog_scraper - INFO - 글 시퀀스 3879457에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879457,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:53,134 - naver_blog_scraper - INFO - 글 시퀀스 3879457에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879457 - 작성자: dpdms3622', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879457', 'date': '2025-06-13 17:53:53', 'author': 'dpdms3622', 'email': 'dpdms3622@naver.com'}
+2025-06-13 17:53:56,649 - naver_blog_scraper - INFO - 글 시퀀스 3879458에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879458,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:53:56,649 - naver_blog_scraper - INFO - 글 시퀀스 3879458에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879458 - 작성자: wjddlsgy5197', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879458', 'date': '2025-06-13 17:53:56', 'author': 'wjddlsgy5197', 'email': 'wjddlsgy5197@naver.com'}
+2025-06-13 17:54:00,169 - naver_blog_scraper - INFO - 글 시퀀스 3879459에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879459,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:00,169 - naver_blog_scraper - INFO - 글 시퀀스 3879459에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879459 - 작성자: wjddlsgy5197', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879459', 'date': '2025-06-13 17:54:00', 'author': 'wjddlsgy5197', 'email': 'wjddlsgy5197@naver.com'}
+2025-06-13 17:54:02,697 - naver_blog_scraper - INFO - 글 시퀀스 3879460에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879460,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:02,697 - naver_blog_scraper - INFO - 글 시퀀스 3879460에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879460 - 작성자: krkr0489', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879460', 'date': '2025-06-13 17:54:02', 'author': 'krkr0489', 'email': 'krkr0489@naver.com'}
+2025-06-13 17:54:02,697 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879456 - 작성자: hsbiotech777', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879456', 'date': '2025-06-13 17:53:48', 'author': 'hsbiotech777', 'email': 'hsbiotech777@naver.com'}
+2025-06-13 17:54:03,628 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:03,629 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:03,629 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879456 - 작성자: hsbiotech777 - 200
+2025-06-13 17:54:03,629 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879457 - 작성자: dpdms3622', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879457', 'date': '2025-06-13 17:53:53', 'author': 'dpdms3622', 'email': 'dpdms3622@naver.com'}
+2025-06-13 17:54:04,198 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:04,198 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:04,198 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879457 - 작성자: dpdms3622 - 200
+2025-06-13 17:54:04,198 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879458 - 작성자: wjddlsgy5197', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879458', 'date': '2025-06-13 17:53:56', 'author': 'wjddlsgy5197', 'email': 'wjddlsgy5197@naver.com'}
+2025-06-13 17:54:04,699 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:04,699 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:04,699 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879458 - 작성자: wjddlsgy5197 - 200
+2025-06-13 17:54:04,699 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879459 - 작성자: wjddlsgy5197', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879459', 'date': '2025-06-13 17:54:00', 'author': 'wjddlsgy5197', 'email': 'wjddlsgy5197@naver.com'}
+2025-06-13 17:54:05,194 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:05,194 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:05,194 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879459 - 작성자: wjddlsgy5197 - 200
+2025-06-13 17:54:05,194 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879460 - 작성자: krkr0489', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879460', 'date': '2025-06-13 17:54:02', 'author': 'krkr0489', 'email': 'krkr0489@naver.com'}
+2025-06-13 17:54:06,183 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:06,184 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:06,184 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879460 - 작성자: krkr0489 - 200
+2025-06-13 17:54:06,184 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:54:09,985 - naver_blog_scraper - INFO - 글 시퀀스 3879461에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879461,"menuId":415,"heads":[],"article":{"id":3879461,"re...
+2025-06-13 17:54:09,985 - naver_blog_scraper - INFO - 글 시퀀스 3879461: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:13,137 - naver_blog_scraper - INFO - 글 시퀀스 3879462에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879462,"menuId":415,"heads":[],"article":{"id":3879462,"re...
+2025-06-13 17:54:13,137 - naver_blog_scraper - INFO - 글 시퀀스 3879462: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:16,864 - naver_blog_scraper - INFO - 글 시퀀스 3879463에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879463,"menuId":415,"heads":[],"article":{"id":3879463,"re...
+2025-06-13 17:54:16,864 - naver_blog_scraper - INFO - 글 시퀀스 3879463: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:19,995 - naver_blog_scraper - INFO - 글 시퀀스 3879464에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879464,"menuId":415,"heads":[],"article":{"id":3879464,"re...
+2025-06-13 17:54:19,995 - naver_blog_scraper - INFO - 글 시퀀스 3879464: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:23,494 - naver_blog_scraper - INFO - 글 시퀀스 3879465에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879465,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:23,494 - naver_blog_scraper - INFO - 글 시퀀스 3879465에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879465 - 작성자: gorani8393', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879465', 'date': '2025-06-13 17:54:23', 'author': 'gorani8393', 'email': 'gorani8393@naver.com'}
+2025-06-13 17:54:26,336 - naver_blog_scraper - INFO - 글 시퀀스 3879466에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:54:26,336 - naver_blog_scraper - INFO - 글 시퀀스 3879466: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:29,840 - naver_blog_scraper - INFO - 글 시퀀스 3879467에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:54:29,840 - naver_blog_scraper - INFO - 글 시퀀스 3879467: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:32,511 - naver_blog_scraper - INFO - 글 시퀀스 3879468에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879468,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:32,511 - naver_blog_scraper - INFO - 글 시퀀스 3879468에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879468 - 작성자: rji21c', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879468', 'date': '2025-06-13 17:54:32', 'author': 'rji21c', 'email': 'rji21c@naver.com'}
+2025-06-13 17:54:36,390 - naver_blog_scraper - INFO - 글 시퀀스 3879469에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879469,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:36,390 - naver_blog_scraper - INFO - 글 시퀀스 3879469에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879469 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879469', 'date': '2025-06-13 17:54:36', 'author': 'ddwowdd1363', 'email': 'ddwowdd1363@naver.com'}
+2025-06-13 17:54:40,087 - naver_blog_scraper - INFO - 글 시퀀스 3879470에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879470,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:40,087 - naver_blog_scraper - INFO - 글 시퀀스 3879470에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879470 - 작성자: hsbiotech777', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879470', 'date': '2025-06-13 17:54:40', 'author': 'hsbiotech777', 'email': 'hsbiotech777@naver.com'}
+2025-06-13 17:54:42,420 - naver_blog_scraper - INFO - 글 시퀀스 3879471에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:54:42,420 - naver_blog_scraper - INFO - 글 시퀀스 3879471: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:44,951 - naver_blog_scraper - INFO - 글 시퀀스 3879472에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879472,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:44,952 - naver_blog_scraper - INFO - 글 시퀀스 3879472에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879472 - 작성자: park_juns', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879472', 'date': '2025-06-13 17:54:44', 'author': 'park_juns', 'email': 'park_juns@naver.com'}
+2025-06-13 17:54:44,952 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879465 - 작성자: gorani8393', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879465', 'date': '2025-06-13 17:54:23', 'author': 'gorani8393', 'email': 'gorani8393@naver.com'}
+2025-06-13 17:54:45,847 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:45,847 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:45,847 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879465 - 작성자: gorani8393 - 200
+2025-06-13 17:54:45,847 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879468 - 작성자: rji21c', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879468', 'date': '2025-06-13 17:54:32', 'author': 'rji21c', 'email': 'rji21c@naver.com'}
+2025-06-13 17:54:46,334 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:46,334 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:46,334 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879468 - 작성자: rji21c - 200
+2025-06-13 17:54:46,335 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879469 - 작성자: ddwowdd1363', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879469', 'date': '2025-06-13 17:54:36', 'author': 'ddwowdd1363', 'email': 'ddwowdd1363@naver.com'}
+2025-06-13 17:54:46,826 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:46,826 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:46,826 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879469 - 작성자: ddwowdd1363 - 200
+2025-06-13 17:54:46,826 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879470 - 작성자: hsbiotech777', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879470', 'date': '2025-06-13 17:54:40', 'author': 'hsbiotech777', 'email': 'hsbiotech777@naver.com'}
+2025-06-13 17:54:47,313 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:47,314 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:47,314 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879470 - 작성자: hsbiotech777 - 200
+2025-06-13 17:54:47,314 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879472 - 작성자: park_juns', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879472', 'date': '2025-06-13 17:54:44', 'author': 'park_juns', 'email': 'park_juns@naver.com'}
+2025-06-13 17:54:47,806 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:54:47,806 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:54:47,806 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879472 - 작성자: park_juns - 200
+2025-06-13 17:54:47,806 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:54:51,079 - naver_blog_scraper - INFO - 글 시퀀스 3879473에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879473,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:54:51,079 - naver_blog_scraper - INFO - 글 시퀀스 3879473에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879473 - 작성자: blue-sea4', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879473', 'date': '2025-06-13 17:54:51', 'author': 'blue-sea4', 'email': 'blue-sea4@naver.com'}
+2025-06-13 17:54:54,770 - naver_blog_scraper - INFO - 글 시퀀스 3879474에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879474,"menuId":415,"heads":[],"article":{"id":3879474,"re...
+2025-06-13 17:54:54,771 - naver_blog_scraper - INFO - 글 시퀀스 3879474: writer.id를 찾을 수 없습니다
+2025-06-13 17:54:57,828 - naver_blog_scraper - INFO - 글 시퀀스 3879475에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879475,"menuId":415,"heads":[],"article":{"id":3879475,"re...
+2025-06-13 17:54:57,828 - naver_blog_scraper - INFO - 글 시퀀스 3879475: writer.id를 찾을 수 없습니다
+2025-06-13 17:55:01,616 - naver_blog_scraper - INFO - 글 시퀀스 3879476에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879476,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:01,617 - naver_blog_scraper - INFO - 글 시퀀스 3879476에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879476 - 작성자: laon_star', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879476', 'date': '2025-06-13 17:55:01', 'author': 'laon_star', 'email': 'laon_star@naver.com'}
+2025-06-13 17:55:04,416 - naver_blog_scraper - INFO - 글 시퀀스 3879477에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879477,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:04,417 - naver_blog_scraper - INFO - 글 시퀀스 3879477에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879477 - 작성자: lndy2585', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879477', 'date': '2025-06-13 17:55:04', 'author': 'lndy2585', 'email': 'lndy2585@naver.com'}
+2025-06-13 17:55:07,348 - naver_blog_scraper - INFO - 글 시퀀스 3879478에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879478,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:07,348 - naver_blog_scraper - INFO - 글 시퀀스 3879478에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879478 - 작성자: sy900814', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879478', 'date': '2025-06-13 17:55:07', 'author': 'sy900814', 'email': 'sy900814@naver.com'}
+2025-06-13 17:55:10,412 - naver_blog_scraper - INFO - 글 시퀀스 3879479에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879479,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:10,412 - naver_blog_scraper - INFO - 글 시퀀스 3879479에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879479 - 작성자: mon1124', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879479', 'date': '2025-06-13 17:55:10', 'author': 'mon1124', 'email': 'mon1124@naver.com'}
+2025-06-13 17:55:10,412 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879473 - 작성자: blue-sea4', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879473', 'date': '2025-06-13 17:54:51', 'author': 'blue-sea4', 'email': 'blue-sea4@naver.com'}
+2025-06-13 17:55:11,663 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:11,663 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:11,663 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879473 - 작성자: blue-sea4 - 200
+2025-06-13 17:55:11,663 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879476 - 작성자: laon_star', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879476', 'date': '2025-06-13 17:55:01', 'author': 'laon_star', 'email': 'laon_star@naver.com'}
+2025-06-13 17:55:12,167 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:12,167 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:12,167 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879476 - 작성자: laon_star - 200
+2025-06-13 17:55:12,167 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879477 - 작성자: lndy2585', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879477', 'date': '2025-06-13 17:55:04', 'author': 'lndy2585', 'email': 'lndy2585@naver.com'}
+2025-06-13 17:55:12,723 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:12,723 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:12,723 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879477 - 작성자: lndy2585 - 200
+2025-06-13 17:55:12,723 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879478 - 작성자: sy900814', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879478', 'date': '2025-06-13 17:55:07', 'author': 'sy900814', 'email': 'sy900814@naver.com'}
+2025-06-13 17:55:13,230 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:13,231 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:13,231 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879478 - 작성자: sy900814 - 200
+2025-06-13 17:55:13,231 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879479 - 작성자: mon1124', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879479', 'date': '2025-06-13 17:55:10', 'author': 'mon1124', 'email': 'mon1124@naver.com'}
+2025-06-13 17:55:13,974 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:13,975 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:13,975 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879479 - 작성자: mon1124 - 200
+2025-06-13 17:55:13,975 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:55:16,835 - naver_blog_scraper - INFO - 글 시퀀스 3879480에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879480,"menuId":415,"heads":[],"article":{"id":3879480,"re...
+2025-06-13 17:55:16,835 - naver_blog_scraper - INFO - 글 시퀀스 3879480: writer.id를 찾을 수 없습니다
+2025-06-13 17:55:20,463 - naver_blog_scraper - INFO - 글 시퀀스 3879481에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879481,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:20,463 - naver_blog_scraper - INFO - 글 시퀀스 3879481에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879481 - 작성자: lndy2585', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879481', 'date': '2025-06-13 17:55:20', 'author': 'lndy2585', 'email': 'lndy2585@naver.com'}
+2025-06-13 17:55:23,183 - naver_blog_scraper - INFO - 글 시퀀스 3879482에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879482,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:23,183 - naver_blog_scraper - INFO - 글 시퀀스 3879482에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879482 - 작성자: ybh111950', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879482', 'date': '2025-06-13 17:55:23', 'author': 'ybh111950', 'email': 'ybh111950@naver.com'}
+2025-06-13 17:55:26,961 - naver_blog_scraper - INFO - 글 시퀀스 3879483에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879483,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:26,961 - naver_blog_scraper - INFO - 글 시퀀스 3879483에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879483 - 작성자: ybh111950', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879483', 'date': '2025-06-13 17:55:26', 'author': 'ybh111950', 'email': 'ybh111950@naver.com'}
+2025-06-13 17:55:30,478 - naver_blog_scraper - INFO - 글 시퀀스 3879484에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879484,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:30,478 - naver_blog_scraper - INFO - 글 시퀀스 3879484에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879484 - 작성자: dyslddl', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879484', 'date': '2025-06-13 17:55:30', 'author': 'dyslddl', 'email': 'dyslddl@naver.com'}
+2025-06-13 17:55:32,809 - naver_blog_scraper - INFO - 글 시퀀스 3879485에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879485,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:32,810 - naver_blog_scraper - INFO - 글 시퀀스 3879485에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879485 - 작성자: fordaddy92', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879485', 'date': '2025-06-13 17:55:32', 'author': 'fordaddy92', 'email': 'fordaddy92@naver.com'}
+2025-06-13 17:55:32,810 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879481 - 작성자: lndy2585', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879481', 'date': '2025-06-13 17:55:20', 'author': 'lndy2585', 'email': 'lndy2585@naver.com'}
+2025-06-13 17:55:34,187 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:34,188 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:34,188 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879481 - 작성자: lndy2585 - 200
+2025-06-13 17:55:34,188 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879482 - 작성자: ybh111950', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879482', 'date': '2025-06-13 17:55:23', 'author': 'ybh111950', 'email': 'ybh111950@naver.com'}
+2025-06-13 17:55:34,722 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:34,722 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:34,722 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879482 - 작성자: ybh111950 - 200
+2025-06-13 17:55:34,722 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879483 - 작성자: ybh111950', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879483', 'date': '2025-06-13 17:55:26', 'author': 'ybh111950', 'email': 'ybh111950@naver.com'}
+2025-06-13 17:55:35,214 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:35,214 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:35,214 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879483 - 작성자: ybh111950 - 200
+2025-06-13 17:55:35,214 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879484 - 작성자: dyslddl', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879484', 'date': '2025-06-13 17:55:30', 'author': 'dyslddl', 'email': 'dyslddl@naver.com'}
+2025-06-13 17:55:35,762 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:35,763 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:35,763 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879484 - 작성자: dyslddl - 200
+2025-06-13 17:55:35,763 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879485 - 작성자: fordaddy92', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879485', 'date': '2025-06-13 17:55:32', 'author': 'fordaddy92', 'email': 'fordaddy92@naver.com'}
+2025-06-13 17:55:36,259 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:55:36,259 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:55:36,259 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879485 - 작성자: fordaddy92 - 200
+2025-06-13 17:55:36,260 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:55:39,477 - naver_blog_scraper - INFO - 글 시퀀스 3879486에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879486,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:39,478 - naver_blog_scraper - INFO - 글 시퀀스 3879486에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879486 - 작성자: shenzhendigital', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879486', 'date': '2025-06-13 17:55:39', 'author': 'shenzhendigital', 'email': 'shenzhendigital@naver.com'}
+2025-06-13 17:55:43,060 - naver_blog_scraper - INFO - 글 시퀀스 3879487에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879487,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:43,060 - naver_blog_scraper - INFO - 글 시퀀스 3879487에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879487 - 작성자: flexsnacd', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879487', 'date': '2025-06-13 17:55:43', 'author': 'flexsnacd', 'email': 'flexsnacd@naver.com'}
+2025-06-13 17:55:45,883 - naver_blog_scraper - INFO - 글 시퀀스 3879488에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879488,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:45,883 - naver_blog_scraper - INFO - 글 시퀀스 3879488에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879488 - 작성자: flexsnacd', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879488', 'date': '2025-06-13 17:55:45', 'author': 'flexsnacd', 'email': 'flexsnacd@naver.com'}
+2025-06-13 17:55:49,661 - naver_blog_scraper - INFO - 글 시퀀스 3879489에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879489,"menuId":415,"heads":[],"article":{"id":3879489,"re...
+2025-06-13 17:55:49,661 - naver_blog_scraper - INFO - 글 시퀀스 3879489: writer.id를 찾을 수 없습니다
+2025-06-13 17:55:52,175 - naver_blog_scraper - INFO - 글 시퀀스 3879490에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879490,"menuId":415,"heads":[],"article":{"id":3879490,"re...
+2025-06-13 17:55:52,175 - naver_blog_scraper - INFO - 글 시퀀스 3879490: writer.id를 찾을 수 없습니다
+2025-06-13 17:55:55,704 - naver_blog_scraper - INFO - 글 시퀀스 3879491에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879491,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:55,705 - naver_blog_scraper - INFO - 글 시퀀스 3879491에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879491 - 작성자: bbangbbni', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879491', 'date': '2025-06-13 17:55:55', 'author': 'bbangbbni', 'email': 'bbangbbni@naver.com'}
+2025-06-13 17:55:59,637 - naver_blog_scraper - INFO - 글 시퀀스 3879492에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879492,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:55:59,637 - naver_blog_scraper - INFO - 글 시퀀스 3879492에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879492 - 작성자: gogo7989', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879492', 'date': '2025-06-13 17:55:59', 'author': 'gogo7989', 'email': 'gogo7989@naver.com'}
+2025-06-13 17:55:59,637 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879486 - 작성자: shenzhendigital', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879486', 'date': '2025-06-13 17:55:39', 'author': 'shenzhendigital', 'email': 'shenzhendigital@naver.com'}
+2025-06-13 17:56:00,924 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:00,924 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:00,925 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879486 - 작성자: shenzhendigital - 200
+2025-06-13 17:56:00,925 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879487 - 작성자: flexsnacd', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879487', 'date': '2025-06-13 17:55:43', 'author': 'flexsnacd', 'email': 'flexsnacd@naver.com'}
+2025-06-13 17:56:01,429 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:01,429 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:01,430 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879487 - 작성자: flexsnacd - 200
+2025-06-13 17:56:01,430 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879488 - 작성자: flexsnacd', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879488', 'date': '2025-06-13 17:55:45', 'author': 'flexsnacd', 'email': 'flexsnacd@naver.com'}
+2025-06-13 17:56:01,937 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:01,937 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:01,937 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879488 - 작성자: flexsnacd - 200
+2025-06-13 17:56:01,937 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879491 - 작성자: bbangbbni', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879491', 'date': '2025-06-13 17:55:55', 'author': 'bbangbbni', 'email': 'bbangbbni@naver.com'}
+2025-06-13 17:56:02,441 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:02,441 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:02,441 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879491 - 작성자: bbangbbni - 200
+2025-06-13 17:56:02,441 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879492 - 작성자: gogo7989', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879492', 'date': '2025-06-13 17:55:59', 'author': 'gogo7989', 'email': 'gogo7989@naver.com'}
+2025-06-13 17:56:02,936 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:02,936 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:02,937 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879492 - 작성자: gogo7989 - 200
+2025-06-13 17:56:02,937 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:56:05,639 - naver_blog_scraper - INFO - 글 시퀀스 3879493에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879493,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:56:05,639 - naver_blog_scraper - INFO - 글 시퀀스 3879493에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879493 - 작성자: ciscomic', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879493', 'date': '2025-06-13 17:56:05', 'author': 'ciscomic', 'email': 'ciscomic@naver.com'}
+2025-06-13 17:56:08,757 - naver_blog_scraper - INFO - 글 시퀀스 3879494에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879494,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:56:08,758 - naver_blog_scraper - INFO - 글 시퀀스 3879494에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879494 - 작성자: hse1231', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879494', 'date': '2025-06-13 17:56:08', 'author': 'hse1231', 'email': 'hse1231@naver.com'}
+2025-06-13 17:56:12,990 - naver_blog_scraper - INFO - 글 시퀀스 3879495에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879495,"menuId":415,"heads":[],"article":{"id":3879495,"re...
+2025-06-13 17:56:12,990 - naver_blog_scraper - INFO - 글 시퀀스 3879495: writer.id를 찾을 수 없습니다
+2025-06-13 17:56:15,265 - naver_blog_scraper - INFO - 글 시퀀스 3879496에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:56:15,265 - naver_blog_scraper - INFO - 글 시퀀스 3879496: writer.id를 찾을 수 없습니다
+2025-06-13 17:56:18,392 - naver_blog_scraper - INFO - 글 시퀀스 3879497에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879497,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:56:18,392 - naver_blog_scraper - INFO - 글 시퀀스 3879497에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879497 - 작성자: cpborn', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879497', 'date': '2025-06-13 17:56:18', 'author': 'cpborn', 'email': 'cpborn@naver.com'}
+2025-06-13 17:56:21,299 - naver_blog_scraper - INFO - 글 시퀀스 3879498에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879498,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:56:21,300 - naver_blog_scraper - INFO - 글 시퀀스 3879498에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879498 - 작성자: larme83', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879498', 'date': '2025-06-13 17:56:21', 'author': 'larme83', 'email': 'larme83@naver.com'}
+2025-06-13 17:56:24,105 - naver_blog_scraper - INFO - 글 시퀀스 3879499에 대한 콘텐츠 가져오기 성공: {"result":{"errorCode":"4003","reason":"게시글이 존재하지 않습니다","message":"errorCode: 4003, message: 게시글이 존재...
+2025-06-13 17:56:24,105 - naver_blog_scraper - INFO - 글 시퀀스 3879499: writer.id를 찾을 수 없습니다
+2025-06-13 17:56:26,670 - naver_blog_scraper - INFO - 글 시퀀스 3879500에 대한 콘텐츠 가져오기 성공: {"result":{"cafeId":10094408,"articleId":3879500,"cafeViewModel":{"id":10094408,"name":"쇼핑몰창업★셀러오션",...
+2025-06-13 17:56:26,670 - naver_blog_scraper - INFO - 글 시퀀스 3879500에 대한 데이터 파싱 성공: {'title': '카페 게시글 3879500 - 작성자: reinaj0419', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879500', 'date': '2025-06-13 17:56:26', 'author': 'reinaj0419', 'email': 'reinaj0419@naver.com'}
+2025-06-13 17:56:26,670 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879493 - 작성자: ciscomic', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879493', 'date': '2025-06-13 17:56:05', 'author': 'ciscomic', 'email': 'ciscomic@naver.com'}
+2025-06-13 17:56:27,949 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:27,949 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:27,949 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879493 - 작성자: ciscomic - 200
+2025-06-13 17:56:27,950 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879494 - 작성자: hse1231', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879494', 'date': '2025-06-13 17:56:08', 'author': 'hse1231', 'email': 'hse1231@naver.com'}
+2025-06-13 17:56:28,456 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:28,456 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:28,456 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879494 - 작성자: hse1231 - 200
+2025-06-13 17:56:28,457 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879497 - 작성자: cpborn', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879497', 'date': '2025-06-13 17:56:18', 'author': 'cpborn', 'email': 'cpborn@naver.com'}
+2025-06-13 17:56:28,941 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:28,941 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:28,941 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879497 - 작성자: cpborn - 200
+2025-06-13 17:56:28,941 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879498 - 작성자: larme83', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879498', 'date': '2025-06-13 17:56:21', 'author': 'larme83', 'email': 'larme83@naver.com'}
+2025-06-13 17:56:29,426 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:29,426 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:29,426 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879498 - 작성자: larme83 - 200
+2025-06-13 17:56:29,426 - naver_blog_scraper - INFO - 전송할 데이터: {'title': '카페 게시글 3879500 - 작성자: reinaj0419', 'url': 'https://cafe.naver.com/ArticleRead.nhn?clubid=10094408&menuid=415&articleid=3879500', 'date': '2025-06-13 17:56:26', 'author': 'reinaj0419', 'email': 'reinaj0419@naver.com'}
+2025-06-13 17:56:29,916 - naver_blog_scraper - INFO - 응답 상태 코드: 200
+2025-06-13 17:56:29,916 - naver_blog_scraper - INFO - 응답 내용: {"message":"Data inserted successfully"}
+2025-06-13 17:56:29,916 - naver_blog_scraper - INFO - 데이터 전송 성공: 카페 게시글 3879500 - 작성자: reinaj0419 - 200
+2025-06-13 17:56:29,916 - naver_blog_scraper - INFO - 총 5개 데이터 중 5개 성공, 0개 실패.
+2025-06-13 17:56:33,015 - naver_blog_scraper - INFO - 데이터 수집 및 Vercel API 전송이 완료되었습니다

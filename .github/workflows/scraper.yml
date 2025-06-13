@@ -1,0 +1,38 @@
+# 자동 스크래핑 비활성화됨 - 수동으로만 실행
+# name: Auto Scraper
+
+# on:
+#   schedule:
+#     # 매 6시간마다 실행 (UTC 기준)
+#     - cron: '0 */6 * * *'
+#   workflow_dispatch: # 수동 실행도 가능
+
+# jobs:
+#   scrape:
+#     runs-on: ubuntu-latest
+    
+#     steps:
+#     - uses: actions/checkout@v3
+    
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.9'
+    
+#     - name: Install dependencies
+#       run: |
+#         pip install requests selenium pyperclip
+#         # Chrome 설치
+#         sudo apt-get update
+#         sudo apt-get install -y google-chrome-stable
+#         # ChromeDriver 설치
+#         wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+#         sudo unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
+#         sudo chmod +x /usr/local/bin/chromedriver
+    
+#     - name: Run scraper
+#       env:
+#         VERCEL_API_ENDPOINT: ${{ secrets.VERCEL_API_ENDPOINT }}
+#       run: |
+#         # headless 모드로 실행하도록 스크립트 수정 필요
+#         python test.py 

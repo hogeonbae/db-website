@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import * as XLSX from 'xlsx';
 
 // 뉴스 데이터 타입 정의
 interface NewsItem {
@@ -8,142 +9,199 @@ interface NewsItem {
   title: string;
   url: string;
   date: string;
+  author: string;
+  email: string;
 }
 
-// 예시 더미 데이터 (데이터 추가)
-const newsData: NewsItem[] = [
-  {
-    id: 1,
-    title: 'OpenAI, GPT-4o 공개',
-    url: 'https://openai.com/blog/gpt-4o',
-    date: '2024-06-01',
-  },
-  {
-    id: 2,
-    title: 'Next.js 15 출시',
-    url: 'https://nextjs.org/blog/next-15',
-    date: '2024-05-20',
-  },
-  {
-    id: 3,
-    title: 'React 19 베타 릴리즈',
-    url: 'https://react.dev/blog/2024/05/10/react-19-beta',
-    date: '2024-05-10',
-  },
-  {
-    id: 4,
-    title: 'TypeScript 5.0 릴리즈',
-    url: 'https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/',
-    date: '2024-04-15',
-  },
-  {
-    id: 5,
-    title: 'TailwindCSS 3.0 출시',
-    url: 'https://tailwindcss.com/blog/tailwindcss-v3',
-    date: '2024-03-01',
-  },
-  {
-    id: 6,
-    title: 'Node.js 20 LTS 릴리즈',
-    url: 'https://nodejs.org/en/blog/release/v20.0.0/',
-    date: '2024-02-10',
-  },
-  {
-    id: 7,
-    title: 'Docker Desktop 4.0 출시',
-    url: 'https://www.docker.com/blog/docker-desktop-4-0/',
-    date: '2024-01-20',
-  },
-  {
-    id: 8,
-    title: 'AWS Lambda 함수 URL 지원',
-    url: 'https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls/',
-    date: '2024-01-05',
-  },
-  {
-    id: 9,
-    title: 'GitHub Copilot X 출시',
-    url: 'https://github.blog/2024-03-22-github-copilot-x-the-ai-powered-developer-experience/',
-    date: '2023-12-15',
-  },
-  {
-    id: 10,
-    title: 'Vercel AI SDK 릴리즈',
-    url: 'https://vercel.com/blog/vercel-ai-sdk',
-    date: '2023-11-30',
-  },
-];
+export default function NewsTable() {
+  const [data, setData] = useState<NewsItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-const NewsTable: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'today'>('all');
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const fetchData = async () => {
+    try {
+      setLoading(true);
+      const response = await fetch('/api/get-data', {
+        headers: {
+          'x-session-auth': 'authenticated'
+        }
+      });
+      
+      if (response.ok) {
+        const result = await response.json();
+        setData(result);
+        setError(null);
+      } else if (response.status === 401) {
+        setError('인증이 필요합니다.');
+      } else {
+        setError('데이터를 불러오는데 실패했습니다.');
+      }
+    } catch (err) {
+      console.error('데이터 조회 오류:', err);
+      setError('데이터를 불러오는데 실패했습니다.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
-  // 오늘 날짜 필터링
-  const today = new Date().toISOString().split('T')[0];
-  const filteredData = filter === 'today' ? newsData.filter(item => item.date === today) : newsData;
+  useEffect(() => {
+    fetchData();
+    // 자동 새로고침 제거 (서버 비용 절약)
+  }, []);
 
-  // 페이지네이션
-  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedData = filteredData.slice(startIndex, startIndex + itemsPerPage);
+  const handleRefresh = () => {
+    fetchData();
+  };
+
+  const handleDownloadEmails = () => {
+    if (data.length === 0) {
+      alert('다운로드할 데이터가 없습니다.');
+      return;
+    }
+
+    // 이메일만 추출하여 엑셀 데이터 생성
+    const emailData = data.map((item, index) => ({
+      '번호': index + 1,
+      '이메일': item.email,
+      '작성자': item.author,
+      '수집일시': new Date(item.date).toLocaleString('ko-KR')
+    }));
+
+    // 워크시트 생성
+    const worksheet = XLSX.utils.json_to_sheet(emailData);
+    
+    // 컬럼 너비 설정
+    const columnWidths = [
+      { wch: 8 },  // 번호
+      { wch: 30 }, // 이메일
+      { wch: 15 }, // 작성자
+      { wch: 20 }  // 수집일시
+    ];
+    worksheet['!cols'] = columnWidths;
+
+    // 워크북 생성
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, '이메일 목록');
+
+    // 파일명 생성 (현재 날짜 포함)
+    const now = new Date();
+    const dateStr = now.toISOString().split('T')[0]; // YYYY-MM-DD 형식
+    const fileName = `네이버카페_이메일목록_${dateStr}.xlsx`;
+
+    // 파일 다운로드
+    XLSX.writeFile(workbook, fileName);
+  };
+
+  if (loading) {
+    return (
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="flex justify-center items-center h-32">
+          <div className="text-gray-500">데이터를 불러오는 중...</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="flex justify-center items-center h-32">
+          <div className="text-red-500">{error}</div>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="overflow-x-auto">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">셀러오션</h2>
+    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+      <div className="px-6 py-4 bg-gray-50 border-b flex justify-between items-center">
+        <h2 className="text-xl font-semibold text-gray-800">
+          수집된 데이터 ({data.length}개)
+        </h2>
         <div className="flex gap-2">
           <button
-            className={`px-4 py-2 rounded ${filter === 'all' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => setFilter('all')}
+            onClick={handleDownloadEmails}
+            disabled={data.length === 0}
+            className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 disabled:bg-gray-400 flex items-center gap-2"
           >
-            전체
+            📊 이메일 엑셀 다운로드
           </button>
           <button
-            className={`px-4 py-2 rounded ${filter === 'today' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => setFilter('today')}
+            onClick={handleRefresh}
+            disabled={loading}
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:bg-gray-400 flex items-center gap-2"
           >
-            오늘
+            {loading ? (
+              <>
+                <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                새로고침 중...
+              </>
+            ) : (
+              <>
+                🔄 새로고침
+              </>
+            )}
           </button>
         </div>
       </div>
-      <table className="min-w-full bg-white border border-gray-200">
-        <thead>
-          <tr>
-            <th className="py-2 px-4 border-b">번호</th>
-            <th className="py-2 px-4 border-b">제목</th>
-            <th className="py-2 px-4 border-b">날짜</th>
-          </tr>
-        </thead>
-        <tbody>
-          {paginatedData.map((item) => (
-            <tr key={item.id} className="hover:bg-gray-100">
-              <td className="py-2 px-4 border-b text-center">{item.id}</td>
-              <td className="py-2 px-4 border-b">
-                <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                  {item.title}
-                </a>
-              </td>
-              <td className="py-2 px-4 border-b text-center">{item.date}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      {totalPages > 1 && (
-        <div className="flex justify-center mt-4">
-          {Array.from({ length: totalPages }, (_, i) => (
-            <button
-              key={i + 1}
-              className={`mx-1 px-3 py-1 rounded ${currentPage === i + 1 ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-              onClick={() => setCurrentPage(i + 1)}
-            >
-              {i + 1}
-            </button>
-          ))}
+      
+      {data.length === 0 ? (
+        <div className="p-6 text-center text-gray-500">
+          아직 수집된 데이터가 없습니다.
+        </div>
+      ) : (
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  번호
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  작성자
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  이메일
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  수집일시
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  링크
+                </th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {data.map((item, index) => (
+                <tr key={item.id} className="hover:bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    {index + 1}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    {item.author}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    {item.email}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    {new Date(item.date).toLocaleString('ko-KR')}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
+                    <a 
+                      href={item.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      게시글 보기
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       )}
     </div>
   );
-};
-
-export default NewsTable; 
+} 

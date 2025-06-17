@@ -1,9 +1,7 @@
 {
-  "_comment": "자동 스크래핑 비활성화됨 - 수동으로만 실행",
-  "_crons_disabled": [
-    {
-      "path": "/api/scrape",
-      "schedule": "0 */6 * * *"
+  "functions": {
+    "app/api/scrape/route.ts": {
+      "maxDuration": 300
     }
-  ]
+  }
 } 
